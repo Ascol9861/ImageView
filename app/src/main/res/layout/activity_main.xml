@@ -9,24 +9,28 @@
 
 
     <RadioGroup
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <RadioButton
-            android:layout_width="130dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnOne"
-            android:text="Kimi"/>
+            android:id="@+id/rdoSingle"
+            android:text="Kimi"
+            android:layout_weight="1"/>
         <RadioButton
-            android:layout_width="130dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnTwo"
-            android:text="No"/>
+            android:id="@+id/rdoDay"
+            android:text="No"
+            android:layout_weight="1"/>
         <RadioButton
-            android:layout_width="130dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnThree"
-            android:text="Nawa"/>
+            android:id="@+id/rdoNight"
+            android:text="Nawa"
+            android:layout_weight="1"/>
 
     </RadioGroup>
 
